@@ -10,9 +10,17 @@
 		EF1255372847D31300FDF2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1255362847D31300FDF2A7 /* AppDelegate.swift */; };
 		EF1255392847D31300FDF2A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1255382847D31300FDF2A7 /* SceneDelegate.swift */; };
 		EF12553B2847D31300FDF2A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF12553A2847D31300FDF2A7 /* ViewController.swift */; };
-		EF12553E2847D31300FDF2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF12553C2847D31300FDF2A7 /* Main.storyboard */; };
 		EF1255402847D31400FDF2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF12553F2847D31400FDF2A7 /* Assets.xcassets */; };
-		EF1255432847D31400FDF2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1255412847D31400FDF2A7 /* LaunchScreen.storyboard */; };
+		EF12554F2847D3F500FDF2A7 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF12554E2847D3F500FDF2A7 /* APIService.swift */; };
+		EF1255532847D58C00FDF2A7 /* UniversitiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1255522847D58C00FDF2A7 /* UniversitiesService.swift */; };
+		EF1255552847D65F00FDF2A7 /* UniversityDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1255542847D65F00FDF2A7 /* UniversityDTO.swift */; };
+		EF1255572847D7B500FDF2A7 /* UniversitiesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1255562847D7B500FDF2A7 /* UniversitiesRepository.swift */; };
+		EF12555A2847D86100FDF2A7 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1255592847D86100FDF2A7 /* University.swift */; };
+		EF12555D2847D8D900FDF2A7 /* FetchUniversitiesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF12555C2847D8D900FDF2A7 /* FetchUniversitiesUseCase.swift */; };
+		EF1255602847D9AC00FDF2A7 /* UniversitiesRepositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF12555F2847D9AC00FDF2A7 /* UniversitiesRepositoryContract.swift */; };
+		EF1255642847D9CD00FDF2A7 /* UniversitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1255632847D9CD00FDF2A7 /* UniversitiesViewModel.swift */; };
+		EF1255662847DB3F00FDF2A7 /* UniversitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1255652847DB3F00FDF2A7 /* UniversitiesView.swift */; };
+		EF1255692847DE4100FDF2A7 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1255682847DE4100FDF2A7 /* DIContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +28,18 @@
 		EF1255362847D31300FDF2A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF1255382847D31300FDF2A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF12553A2847D31300FDF2A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF12553D2847D31300FDF2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF12553F2847D31400FDF2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF1255422847D31400FDF2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF1255442847D31400FDF2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF12554E2847D3F500FDF2A7 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		EF1255522847D58C00FDF2A7 /* UniversitiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesService.swift; sourceTree = "<group>"; };
+		EF1255542847D65F00FDF2A7 /* UniversityDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDTO.swift; sourceTree = "<group>"; };
+		EF1255562847D7B500FDF2A7 /* UniversitiesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesRepository.swift; sourceTree = "<group>"; };
+		EF1255592847D86100FDF2A7 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		EF12555C2847D8D900FDF2A7 /* FetchUniversitiesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUniversitiesUseCase.swift; sourceTree = "<group>"; };
+		EF12555F2847D9AC00FDF2A7 /* UniversitiesRepositoryContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesRepositoryContract.swift; sourceTree = "<group>"; };
+		EF1255632847D9CD00FDF2A7 /* UniversitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesViewModel.swift; sourceTree = "<group>"; };
+		EF1255652847DB3F00FDF2A7 /* UniversitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesView.swift; sourceTree = "<group>"; };
+		EF1255682847DE4100FDF2A7 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		EF12556A2847DFD000FDF2A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,119 @@
 		EF1255352847D31200FDF2A7 /* MenusApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF1255672847DE3000FDF2A7 /* Application */,
+				EF12554D2847D3E900FDF2A7 /* Infrastructure */,
+				EF12554C2847D3E000FDF2A7 /* Domain */,
+				EF12554B2847D3CE00FDF2A7 /* Data */,
+				EF12554A2847D3BD00FDF2A7 /* Presentation */,
 				EF1255362847D31300FDF2A7 /* AppDelegate.swift */,
 				EF1255382847D31300FDF2A7 /* SceneDelegate.swift */,
 				EF12553A2847D31300FDF2A7 /* ViewController.swift */,
-				EF12553C2847D31300FDF2A7 /* Main.storyboard */,
 				EF12553F2847D31400FDF2A7 /* Assets.xcassets */,
-				EF1255412847D31400FDF2A7 /* LaunchScreen.storyboard */,
-				EF1255442847D31400FDF2A7 /* Info.plist */,
+				EF12556A2847DFD000FDF2A7 /* Info.plist */,
 			);
 			path = MenusApp;
+			sourceTree = "<group>";
+		};
+		EF12554A2847D3BD00FDF2A7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EF1255622847D9C400FDF2A7 /* View */,
+				EF1255612847D9C100FDF2A7 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EF12554B2847D3CE00FDF2A7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EF1255512847D56200FDF2A7 /* Repository */,
+				EF1255502847D55B00FDF2A7 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EF12554C2847D3E000FDF2A7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EF12555E2847D99600FDF2A7 /* Interfaces */,
+				EF12555B2847D8CC00FDF2A7 /* UseCases */,
+				EF1255582847D85C00FDF2A7 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EF12554D2847D3E900FDF2A7 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				EF12554E2847D3F500FDF2A7 /* APIService.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		EF1255502847D55B00FDF2A7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EF1255522847D58C00FDF2A7 /* UniversitiesService.swift */,
+				EF1255542847D65F00FDF2A7 /* UniversityDTO.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EF1255512847D56200FDF2A7 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EF1255562847D7B500FDF2A7 /* UniversitiesRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		EF1255582847D85C00FDF2A7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EF1255592847D86100FDF2A7 /* University.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EF12555B2847D8CC00FDF2A7 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				EF12555C2847D8D900FDF2A7 /* FetchUniversitiesUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		EF12555E2847D99600FDF2A7 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EF12555F2847D9AC00FDF2A7 /* UniversitiesRepositoryContract.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EF1255612847D9C100FDF2A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF1255632847D9CD00FDF2A7 /* UniversitiesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF1255622847D9C400FDF2A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF1255652847DB3F00FDF2A7 /* UniversitiesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF1255672847DE3000FDF2A7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EF1255682847DE4100FDF2A7 /* DIContainer.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF1255432847D31400FDF2A7 /* LaunchScreen.storyboard in Resources */,
 				EF1255402847D31400FDF2A7 /* Assets.xcassets in Resources */,
-				EF12553E2847D31300FDF2A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +256,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1255532847D58C00FDF2A7 /* UniversitiesService.swift in Sources */,
 				EF12553B2847D31300FDF2A7 /* ViewController.swift in Sources */,
+				EF1255692847DE4100FDF2A7 /* DIContainer.swift in Sources */,
+				EF1255642847D9CD00FDF2A7 /* UniversitiesViewModel.swift in Sources */,
+				EF12555D2847D8D900FDF2A7 /* FetchUniversitiesUseCase.swift in Sources */,
 				EF1255372847D31300FDF2A7 /* AppDelegate.swift in Sources */,
+				EF1255552847D65F00FDF2A7 /* UniversityDTO.swift in Sources */,
 				EF1255392847D31300FDF2A7 /* SceneDelegate.swift in Sources */,
+				EF12555A2847D86100FDF2A7 /* University.swift in Sources */,
+				EF12554F2847D3F500FDF2A7 /* APIService.swift in Sources */,
+				EF1255572847D7B500FDF2A7 /* UniversitiesRepository.swift in Sources */,
+				EF1255662847DB3F00FDF2A7 /* UniversitiesView.swift in Sources */,
+				EF1255602847D9AC00FDF2A7 /* UniversitiesRepositoryContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EF12553C2847D31300FDF2A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF12553D2847D31300FDF2A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EF1255412847D31400FDF2A7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF1255422847D31400FDF2A7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EF1255452847D31400FDF2A7 /* Debug */ = {
@@ -294,9 +403,9 @@
 				INFOPLIST_FILE = MenusApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +415,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,9 +431,9 @@
 				INFOPLIST_FILE = MenusApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +443,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
